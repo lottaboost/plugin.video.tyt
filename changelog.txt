@@ -1,0 +1,36 @@
+[B]3.0.0[/B]
+- Major Overhaul to work with the new TYT.com website
+- Now Supports automatically adding in new shows without requiring update.
+- Expect various tweaks in the next month
+[B]2.1.5[/B]
+- Update to plugin, after changes were made to their site on 5/16/18
+- Going to look into getting a better TYT Live stream for members and non-memebers, that doesn't depend on kodi's youtube plugin.
+- There are several changes that are going to be made at TYT, so expect lots of updates to this plugin in the near future.
+[B]2.1.4[/B]
+- Added The News with Dan Rather
+[B]2.1.3[/B]
+- Added Rebel Headquarters
+[B]2.1.2[/B]
+- Fixed Old School
+- It seems that the channel is changing urls frequently, I will address this
+- Issue on the next update.
+[B]2.1.1[/B]
+- Fixed Aggressive Progressives
+[B]2.1.0[/B]
+- Fixed to work with Kodi v17
+- Added support to TYT's new JWplayer method of video hosting
+- Fixed bug that sometimes required opening a video multiple times before it was viewable.
+- Added Murder with Friends, removed allstar Tuesday
+[B]2.0.4[/B]
+- Updated URL for All Star Tuesdays and Old School
+- Added Members TYT Live
+- Added Members Specials
+- Changed username in config to user-email, as people were getting confused with login info
+[B]2.0.3[/B]
+- Fixed bug in im members area video description
+- Added All Star Tuesdays
+[B]2.0.2[/B]
+- Fixed bug with members area
+[B]2.0.1[/B]
+- Fixed bug viewing members area
+- Fixed bug viewing past page 2 in members area.
