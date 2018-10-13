@@ -37,16 +37,6 @@ def sendResponse(cookies, pagename):
   conn.close()
   return page
 
-def sendResponse2(cookies, pagename):
-  conn = httplib.HTTPSConnection("platform.tyt.com")
-  conn.request("GET", pagename, "", cookies)
-  response = conn.getresponse()
-  page = response.read()
-  import HTMLParser
-  page = unquote(page).decode('utf8')
-  page = HTMLParser.HTMLParser().unescape(page).encode('utf8')
-  conn.close()
-  return page
     
 def login():
 
