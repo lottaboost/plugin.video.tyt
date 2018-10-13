@@ -9,8 +9,8 @@ def popup(text):
   xbmcgui.Dialog().ok('plugin.video.tyt', text)
 
 def Get_Show_Episodes(page):
-  with open('show.html', 'w') as f:
-    f.write(page)
+#  with open('show.html', 'w') as f:
+#    f.write(page)
   hosts = {}
 #  episodes = re.compile('id="tag">(.+?)</div></tyt-feed-tag><!----><!.+?href="(.+?)".+?data-image-id="(.+?)".+?underbox"><.+?"">(.+?)</h1>.+?Hosts:(.+?)</span></span>.+?<!----><!----><!----><!---->.+?href=".+?"> (.+?)</a>',re.DOTALL).findall(page)
   episodes = re.compile('id="tag">(.+?)</div></tyt-feed-tag><!----><!.+?href="(.+?)".+?data-image-id="(.+?)".+?underbox"><.+?Hosts:(.+?)</span></span>.+?<!----><!----><!----><!---->.+?href=".+?"> (.+?)</a>',re.DOTALL).findall(page)
