@@ -1,3 +1,6 @@
+msgid ""
+msgstr ""
+
 msgctxt "#30000"
 msgid "General"
 msgstr ""
