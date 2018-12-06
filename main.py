@@ -134,7 +134,7 @@ def router(paramstring):
       page = sendResponse(get_cookie(), params['video'])
       jw, hd = scrape.Watch_Episode(page, params['video'].rsplit('/',1)[1])
       dialog = xbmcgui.Dialog()
-      which = dialog.yesno('Select Prefered Stream', 'Which stream would you prefer?',  yeslabel='m3u8 "JW Player"', nolabel='MP4 HD')
+      which = dialog.yesno(__language__(30005), __language__(30006), yeslabel= __language__(30007), nolabel=__language__(30008))
       if which:
         if hd is not None:
           play_video(hd)
